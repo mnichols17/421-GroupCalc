@@ -4,5 +4,6 @@ namespace StatsCalculator
 {
     public class StatsCalculator
     {
+        
     }
 }
