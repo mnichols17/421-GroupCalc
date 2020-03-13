@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C1853D1E-4650-4242-A434-9019B428BC2F}</ProjectGuid>
+    <ProjectGuid>{28163B37-E688-4BD5-A8E5-6A0DA1E78EF4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BasicCalculator</RootNamespace>
-    <AssemblyName>BasicCalculator</AssemblyName>
+    <RootNamespace>MathOperations</RootNamespace>
+    <AssemblyName>MathOperations</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,18 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BasicCalculator.cs" />
+    <Compile Include="Addition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Addition\Addition.csproj">
-      <Project>{08e9fc38-5328-4509-8d5a-4c49eb448af8}</Project>
-      <Name>Addition</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MathOperations\MathOperations.csproj">
-      <Project>{28163b37-e688-4bd5-a8e5-6a0da1e78ef4}</Project>
-      <Name>MathOperations</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
