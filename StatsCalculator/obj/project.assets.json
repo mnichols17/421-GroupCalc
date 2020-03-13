@@ -180,19 +180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mike\\.nuget\\packages\\": {}
+    "C:\\Users\\Henry\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mike\\source\\repos\\GroupCalculator\\StatsCalculator\\StatsCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\Henry\\Source\\Repos\\421-GroupCalc\\StatsCalculator\\StatsCalculator.csproj",
       "projectName": "StatsCalculator",
-      "projectPath": "C:\\Users\\Mike\\source\\repos\\GroupCalculator\\StatsCalculator\\StatsCalculator.csproj",
-      "packagesPath": "C:\\Users\\Mike\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mike\\source\\repos\\GroupCalculator\\StatsCalculator\\obj\\",
+      "projectPath": "C:\\Users\\Henry\\Source\\Repos\\421-GroupCalc\\StatsCalculator\\StatsCalculator.csproj",
+      "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Henry\\Source\\Repos\\421-GroupCalc\\StatsCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mike\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
