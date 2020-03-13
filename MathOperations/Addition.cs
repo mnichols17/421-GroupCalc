@@ -16,5 +16,27 @@ namespace MathOperations
         {
             return a + b;
         }
+
+
+        static public int Sum(int[] intArray)
+        {
+            int result = 0;
+            foreach(var x in intArray)
+            {
+                result = Sum(result, x);
+            }
+
+            return result;
+        }
+
+        static public decimal Sum(decimal[] decArray)
+        {
+            decimal result = 0;
+            foreach(var x in decArray)
+            {
+                result = Sum(result, x);
+            }
+            return result;
+        }
     }
 }

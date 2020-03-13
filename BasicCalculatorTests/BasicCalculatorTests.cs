@@ -27,5 +27,25 @@ namespace BasicCalculator.Tests
             calc.Add(5.5M, 4.5M);
             Assert.AreEqual(10M, calc.Result);
         }
+
+        [TestMethod()]
+
+        public void AddIntArrayTest()
+        {
+            int[] testArr = { 1, 2, 3 };
+            BasicCalculator calc = new BasicCalculator();
+            calc.Add(testArr);
+            Assert.AreEqual(6, calc.Result);
+        }
+
+        [TestMethod()]
+
+        public void AddDecimalArrayTest()
+        {
+            decimal[] testArr = { 1.5M, 2.5M, 3.5M };
+            BasicCalculator calc = new BasicCalculator();
+            calc.Add(testArr);
+            Assert.AreEqual(7.5M, calc.Result);
+        }
     }
 }

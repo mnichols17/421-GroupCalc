@@ -25,6 +25,12 @@ namespace BasicCalculator
             Result = Addition.Add(a, b);
             return Result;
         }
+
+        public dynamic Add(dynamic arrayList)
+        {
+            Result = Addition.Add(arrayList);
+            return Result;
+        }
     }
 
 
