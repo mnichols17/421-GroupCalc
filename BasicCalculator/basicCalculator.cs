@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MathOperations;
 using Addition;
+using Subtraction;
 
 namespace BasicCalculator
 {
@@ -19,6 +20,7 @@ namespace BasicCalculator
         }
 
         Sum Addition = new Sum();
+        Difference Subtraction = new Difference();
 
         public dynamic Add(dynamic a, dynamic b)
         {
@@ -29,6 +31,18 @@ namespace BasicCalculator
         public dynamic Add(dynamic arrayList)
         {
             Result = Addition.Add(arrayList);
+            return Result;
+        }
+
+        public dynamic Subtract(dynamic a, dynamic b)
+        {
+            Result = Subtraction.Subtract(a, b);
+            return Result;
+        }
+
+        public dynamic Subtract(dynamic arrayList)
+        {
+            Result = Subtraction.Subtract(arrayList);
             return Result;
         }
     }

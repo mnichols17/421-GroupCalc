@@ -47,5 +47,45 @@ namespace BasicCalculator.Tests
             calc.Add(testArr);
             Assert.AreEqual(7.5M, calc.Result);
         }
+
+        [TestMethod()]
+
+        public void SubtractIntTest()
+        {
+            
+            BasicCalculator calc = new BasicCalculator();
+            calc.Subtract(10,5);
+            Assert.AreEqual(5, calc.Result);
+        }
+
+        [TestMethod()]
+
+        public void SubtractDecimalTest()
+        {
+
+            BasicCalculator calc = new BasicCalculator();
+            calc.Subtract(10.5M, 5.5M);
+            Assert.AreEqual(5, calc.Result);
+        }
+
+        [TestMethod()]
+
+        public void SubtractIntArrayTest()
+        {
+            int[] test = { 5, 1, 2 };
+            BasicCalculator calc = new BasicCalculator();
+            calc.Subtract(test);
+            Assert.AreEqual(2, calc.Result);
+        }
+
+        [TestMethod()]
+
+        public void SubtractDecimalArrayTest()
+        {
+            decimal[] test = {10M, 2.5M, 1M };
+            BasicCalculator calc = new BasicCalculator();
+            calc.Subtract(test);
+            Assert.AreEqual(6.5M, calc.Result);
+        }
     }
 }
