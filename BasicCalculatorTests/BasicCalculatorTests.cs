@@ -12,11 +12,20 @@ namespace BasicCalculator.Tests
     public class BasicCalculatorTests
     {
         [TestMethod()]
-        public void AddTest()
+        public void AddIntTest()
         {
             BasicCalculator calc = new BasicCalculator();
             calc.Add(4, 5);
             Assert.AreEqual(9, calc.Result);
+        }
+
+        [TestMethod()]
+
+        public void AddDecimalTest()
+        {
+            BasicCalculator calc = new BasicCalculator();
+            calc.Add(5.5M, 4.5M);
+            Assert.AreEqual(10M, calc.Result);
         }
     }
 }
