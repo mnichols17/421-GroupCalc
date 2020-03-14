@@ -7,6 +7,7 @@ using MathOperations;
 using Addition;
 using Subtraction;
 using Division;
+using Multiplication;
 
 namespace BasicCalculator
 {
@@ -23,6 +24,7 @@ namespace BasicCalculator
         Sum Addition = new Sum();
         Difference Subtraction = new Difference();
         Quotient Division = new Quotient();
+        Product Multiply = new Product();
 
         public dynamic Add(dynamic a, dynamic b)
         {
@@ -58,6 +60,19 @@ namespace BasicCalculator
             Result = Division.Divide(arrayList);
             return Result;
         }
+
+        public dynamic Multiplication(dynamic a, dynamic b)
+        {
+            Result = Multiply.Multiply(a, b);
+            return Result;
+        }
+
+        public dynamic Multiplication(dynamic arrayList)
+        {
+            Result = Multiply.Multiply(arrayList);
+            return Result;
+        }
+
     }
 
 

@@ -57,6 +57,10 @@
       <Project>{28163b37-e688-4bd5-a8e5-6a0da1e78ef4}</Project>
       <Name>MathOperations</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Multiplication\Multiplication.csproj">
+      <Project>{b06fd49e-2430-4973-9a64-318d41777332}</Project>
+      <Name>Multiplication</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Subtraction\Subtraction.csproj">
       <Project>{4afa21d6-9667-49bd-857e-7870e873d219}</Project>
       <Name>Subtraction</Name>

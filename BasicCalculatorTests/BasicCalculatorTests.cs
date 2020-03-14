@@ -128,5 +128,45 @@ namespace BasicCalculator.Tests
             calc.Divide(test);
             Assert.AreEqual(4.08M, calc.Result);
         }
+
+        [TestMethod()]
+
+        public void MultiplyIntTest()
+        {
+           
+            BasicCalculator calc = new BasicCalculator();
+            calc.Multiplication(10, 3);
+            Assert.AreEqual(30, calc.Result);
+        }
+
+        [TestMethod()]
+
+        public void MultiplyDecimalTest()
+        {
+
+            BasicCalculator calc = new BasicCalculator();
+            calc.Multiplication(5.5M, 2.5M);
+            Assert.AreEqual(13.75M, calc.Result);
+        }
+
+        [TestMethod()]
+
+        public void MultiplyIntArrayTest()
+        {
+            int[] test = { 5, 2, 3 };
+            BasicCalculator calc = new BasicCalculator();
+            calc.Multiplication(test);
+            Assert.AreEqual(30, calc.Result);
+        }
+
+        [TestMethod()]
+
+        public void MultiplyDecimalArrayTest()
+        {
+            decimal[] test = { 2.5M, 7.5M, 5M };
+            BasicCalculator calc = new BasicCalculator();
+            calc.Multiplication(test);
+            Assert.AreEqual(93.75M, calc.Result);
+        }
     }
 }
