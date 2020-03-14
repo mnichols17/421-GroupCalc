@@ -5,7 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MathOperations\MathOperations.csproj" />
     <ProjectReference Include="..\RandomGenerator\RandomGenerator.csproj" />
+    <ProjectReference Include="..\StatOperations\StatOperations.csproj" />
   </ItemGroup>
 
 </Project>

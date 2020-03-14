@@ -4,14 +4,163 @@
     "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatsCalculator\\StatsCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatsCalculator\\StatsCalculator.csproj": {
+    "C:\\Users\\Mike\\Source\\Repos\\421Group\\Addition\\Addition.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatsCalculator\\StatsCalculator.csproj",
-        "projectName": "StatsCalculator",
-        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatsCalculator\\StatsCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Addition\\Addition.csproj",
+        "projectName": "Addition",
+        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Addition\\Addition.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Mike\\Source\\Repos\\421Group\\BasicCalculator\\BasicCalculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\421Group\\BasicCalculator\\BasicCalculator.csproj",
+        "projectName": "BasicCalculator",
+        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\BasicCalculator\\BasicCalculator.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Mike\\Source\\Repos\\421Group\\Addition\\Addition.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Addition\\Addition.csproj"
+              },
+              "C:\\Users\\Mike\\Source\\Repos\\421Group\\Division\\Division.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Division\\Division.csproj"
+              },
+              "C:\\Users\\Mike\\Source\\Repos\\421Group\\Exponentiation\\Exponentiation.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Exponentiation\\Exponentiation.csproj"
+              },
+              "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj"
+              },
+              "C:\\Users\\Mike\\Source\\Repos\\421Group\\Multiplication\\Multiplication.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Multiplication\\Multiplication.csproj"
+              },
+              "C:\\Users\\Mike\\Source\\Repos\\421Group\\Radical\\Radical.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Radical\\Radical.csproj"
+              },
+              "C:\\Users\\Mike\\Source\\Repos\\421Group\\Subtraction\\Subtraction.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Subtraction\\Subtraction.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Mike\\Source\\Repos\\421Group\\Division\\Division.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Division\\Division.csproj",
+        "projectName": "Division",
+        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Division\\Division.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Mike\\Source\\Repos\\421Group\\Exponentiation\\Exponentiation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Exponentiation\\Exponentiation.csproj",
+        "projectName": "Exponentiation",
+        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Exponentiation\\Exponentiation.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj",
+        "projectName": "MathOperations",
+        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Mike\\Source\\Repos\\421Group\\Multiplication\\Multiplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Multiplication\\Multiplication.csproj",
+        "projectName": "Multiplication",
+        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Multiplication\\Multiplication.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Mike\\Source\\Repos\\421Group\\Radical\\Radical.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Radical\\Radical.csproj",
+        "projectName": "Radical",
+        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Radical\\Radical.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatOperations\\StatOperations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatOperations\\StatOperations.csproj",
+        "projectName": "StatOperations",
+        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatOperations\\StatOperations.csproj",
         "packagesPath": "C:\\Users\\Mike\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatsCalculator\\obj\\",
+        "outputPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatOperations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mike\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,7 +175,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -61,6 +214,92 @@
           "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatsCalculator\\StatsCalculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatsCalculator\\StatsCalculator.csproj",
+        "projectName": "StatsCalculator",
+        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatsCalculator\\StatsCalculator.csproj",
+        "packagesPath": "C:\\Users\\Mike\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatsCalculator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mike\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Mike\\Source\\Repos\\421Group\\BasicCalculator\\BasicCalculator.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\BasicCalculator\\BasicCalculator.csproj"
+              },
+              "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatOperations\\StatOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatOperations\\StatOperations.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mike\\Source\\Repos\\421Group\\Subtraction\\Subtraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Subtraction\\Subtraction.csproj",
+        "projectName": "Subtraction",
+        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\Subtraction\\Subtraction.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\MathOperations\\MathOperations.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }
