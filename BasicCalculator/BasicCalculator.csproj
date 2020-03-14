@@ -53,6 +53,10 @@
       <Project>{01ca41d1-3527-49d7-8a00-0258a7f89271}</Project>
       <Name>Division</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Exponentiation\Exponentiation.csproj">
+      <Project>{663486a5-dda0-44e8-bbf2-69e654e3de10}</Project>
+      <Name>Exponentiation</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MathOperations\MathOperations.csproj">
       <Project>{28163b37-e688-4bd5-a8e5-6a0da1e78ef4}</Project>
       <Name>MathOperations</Name>

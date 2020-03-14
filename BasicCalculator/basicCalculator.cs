@@ -8,6 +8,7 @@ using Addition;
 using Subtraction;
 using Division;
 using Multiplication;
+using Exponentiation;
 
 namespace BasicCalculator
 {
@@ -25,6 +26,7 @@ namespace BasicCalculator
         Difference Subtraction = new Difference();
         Quotient Division = new Quotient();
         Product Multiply = new Product();
+        Power Exponent = new Power();
 
         public dynamic Add(dynamic a, dynamic b)
         {
@@ -70,6 +72,12 @@ namespace BasicCalculator
         public dynamic Multiplication(dynamic arrayList)
         {
             Result = Multiply.Multiply(arrayList);
+            return Result;
+        }
+
+        public dynamic Exponentiation(dynamic a, dynamic b)
+        {
+            Result = Exponent.Exponent(a, b);
             return Result;
         }
 

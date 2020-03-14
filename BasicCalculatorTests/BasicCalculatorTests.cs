@@ -168,5 +168,24 @@ namespace BasicCalculator.Tests
             calc.Multiplication(test);
             Assert.AreEqual(93.75M, calc.Result);
         }
+
+        [TestMethod()]
+
+        public void PowerIntTest()
+        {
+           
+            BasicCalculator calc = new BasicCalculator();
+            calc.Exponentiation(5, 2);
+            Assert.AreEqual(25, calc.Result);
+        }
+
+        [TestMethod()]
+
+        public void PowerDecimalTest()
+        {
+            BasicCalculator calc = new BasicCalculator();
+            calc.Exponentiation(7.5M, 2M);
+            Assert.AreEqual(56.25M, calc.Result);
+        }
     }
 }
