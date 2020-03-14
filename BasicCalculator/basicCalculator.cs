@@ -9,6 +9,7 @@ using Subtraction;
 using Division;
 using Multiplication;
 using Exponentiation;
+using Radical;
 
 namespace BasicCalculator
 {
@@ -27,6 +28,7 @@ namespace BasicCalculator
         Quotient Division = new Quotient();
         Product Multiply = new Product();
         Power Exponent = new Power();
+        Root Rad = new Root();
 
         public dynamic Add(dynamic a, dynamic b)
         {
@@ -78,6 +80,12 @@ namespace BasicCalculator
         public dynamic Exponentiation(dynamic a, dynamic b)
         {
             Result = Exponent.Exponent(a, b);
+            return Result;
+        }
+
+        public dynamic Radical(dynamic a, dynamic b)
+        {
+            Result = Rad.ansRoot(a, b);
             return Result;
         }
 

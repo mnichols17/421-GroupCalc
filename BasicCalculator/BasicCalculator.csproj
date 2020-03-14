@@ -65,6 +65,10 @@
       <Project>{b06fd49e-2430-4973-9a64-318d41777332}</Project>
       <Name>Multiplication</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Radical\Radical.csproj">
+      <Project>{04aa7ff6-cfae-4cfd-8bbe-b2e536345c86}</Project>
+      <Name>Radical</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Subtraction\Subtraction.csproj">
       <Project>{4afa21d6-9667-49bd-857e-7870e873d219}</Project>
       <Name>Subtraction</Name>

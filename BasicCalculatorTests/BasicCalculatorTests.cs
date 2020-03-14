@@ -187,5 +187,23 @@ namespace BasicCalculator.Tests
             calc.Exponentiation(7.5M, 2M);
             Assert.AreEqual(56.25M, calc.Result);
         }
+
+        [TestMethod()]
+
+        public void RadicalIntTest()
+        {
+            BasicCalculator calc = new BasicCalculator();
+            calc.Radical(25, 2);
+            Assert.AreEqual(5, calc.Result);
+        }
+
+        [TestMethod()]
+
+        public void RadicalDecimalTest()
+        {
+            BasicCalculator calc = new BasicCalculator();
+            calc.Radical(5.8M, 2M);
+            Assert.AreEqual(2.40831891575846M, calc.Result);
+        }
     }
 }
