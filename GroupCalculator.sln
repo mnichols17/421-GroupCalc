@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCalculatorTests", "Bas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subtraction", "Subtraction\Subtraction.csproj", "{4AFA21D6-9667-49BD-857E-7870E873D219}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGenerator", "RandomGenerator\RandomGenerator.csproj", "{6AFDAD08-649A-4E89-953C-1A56AF964EDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{4AFA21D6-9667-49BD-857E-7870E873D219}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AFA21D6-9667-49BD-857E-7870E873D219}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AFA21D6-9667-49BD-857E-7870E873D219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AFDAD08-649A-4E89-953C-1A56AF964EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFDAD08-649A-4E89-953C-1A56AF964EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFDAD08-649A-4E89-953C-1A56AF964EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFDAD08-649A-4E89-953C-1A56AF964EDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
