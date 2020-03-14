@@ -82,10 +82,51 @@ namespace BasicCalculator.Tests
 
         public void SubtractDecimalArrayTest()
         {
-            decimal[] test = {10M, 2.5M, 1M };
+            decimal[] test = { 10M, 2.5M, 1M };
             BasicCalculator calc = new BasicCalculator();
             calc.Subtract(test);
             Assert.AreEqual(6.5M, calc.Result);
+        }
+
+
+
+        [TestMethod()]
+
+        public void DivideIntTest()
+        {
+            BasicCalculator calc = new BasicCalculator();
+            calc.Divide(10,2);
+            Assert.AreEqual(5, calc.Result);
+        }
+
+        [TestMethod()]
+
+        public void DivideDecimalTest()
+        {
+            BasicCalculator calc = new BasicCalculator();
+            calc.Divide(10.5M, 2M);
+            Assert.AreEqual(5.25M, calc.Result);
+        }
+
+        [TestMethod()]
+
+        public void DivideIntArrayTest()
+        {
+            int[] test = { 20, 5, 2 };
+            BasicCalculator calc = new BasicCalculator();
+            calc.Divide(test);
+            Assert.AreEqual(2, calc.Result);
+        }
+
+
+        [TestMethod()]
+
+        public void DivideDecimalArrayTest()
+        {
+            decimal[] test = { 40.8M, 5M, 2M };
+            BasicCalculator calc = new BasicCalculator();
+            calc.Divide(test);
+            Assert.AreEqual(4.08M, calc.Result);
         }
     }
 }

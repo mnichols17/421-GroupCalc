@@ -17,7 +17,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCalculatorTests", "Bas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subtraction", "Subtraction\Subtraction.csproj", "{4AFA21D6-9667-49BD-857E-7870E873D219}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGenerator", "RandomGenerator\RandomGenerator.csproj", "{6AFDAD08-649A-4E89-953C-1A56AF964EDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomGenerator", "RandomGenerator\RandomGenerator.csproj", "{6AFDAD08-649A-4E89-953C-1A56AF964EDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Division", "Division\Division.csproj", "{01CA41D1-3527-49D7-8A00-0258A7F89271}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{6AFDAD08-649A-4E89-953C-1A56AF964EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AFDAD08-649A-4E89-953C-1A56AF964EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AFDAD08-649A-4E89-953C-1A56AF964EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CA41D1-3527-49D7-8A00-0258A7F89271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CA41D1-3527-49D7-8A00-0258A7F89271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CA41D1-3527-49D7-8A00-0258A7F89271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CA41D1-3527-49D7-8A00-0258A7F89271}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

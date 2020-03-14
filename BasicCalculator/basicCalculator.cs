@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using MathOperations;
 using Addition;
 using Subtraction;
+using Division;
 
 namespace BasicCalculator
 {
@@ -21,6 +22,7 @@ namespace BasicCalculator
 
         Sum Addition = new Sum();
         Difference Subtraction = new Difference();
+        Quotient Division = new Quotient();
 
         public dynamic Add(dynamic a, dynamic b)
         {
@@ -43,6 +45,17 @@ namespace BasicCalculator
         public dynamic Subtract(dynamic arrayList)
         {
             Result = Subtraction.Subtract(arrayList);
+            return Result;
+        }
+
+        public dynamic Divide(dynamic dividend, dynamic divisor)
+        {
+            Result = Division.Divide(dividend, divisor);
+            return Result;
+        }
+        public dynamic Divide(dynamic arrayList)
+        {
+            Result = Division.Divide(arrayList);
             return Result;
         }
     }
