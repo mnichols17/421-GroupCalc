@@ -5,22 +5,22 @@ using MathOperations;
 
 namespace StatOperations
 {
-    class ZScore
+    public static class ZScore
     {
-        static public void score(int x, int[] nums)
+        static public decimal score(int x, int[] nums)
         {
             decimal mean = Mean.findMean(nums);
             decimal SD = StandardDeviation.findSD(nums);
 
-            decimal z = Division.Quotient((x - mean), SD);
+            return Division.Quotient((x - mean), SD);
         }
 
-        static public void score(decimal x, decimal[] nums)
+        static public decimal score(decimal x, decimal[] nums)
         {
             decimal mean = Mean.findMean(nums);
             decimal SD = StandardDeviation.findSD(nums);
 
-            decimal z = Division.Quotient((x - mean), SD);
+            return Division.Quotient((x - mean), SD);
         }
     }
 }

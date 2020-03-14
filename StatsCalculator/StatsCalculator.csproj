@@ -8,4 +8,9 @@
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BasicCalculator\BasicCalculator.csproj" />
+    <ProjectReference Include="..\StatOperations\StatOperations.csproj" />
+  </ItemGroup>
+
 </Project>
