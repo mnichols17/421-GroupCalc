@@ -1,5 +1,9 @@
 # 421-GroupCalc
 
+### Issue with Travis CL
+For some reason Travis CL is giving us errors regarding a missing package. After searching the internet and trying to resolve the issue with downloading/removing a lot of packages, we still get the build failed. Our tests pass though so nothing is wrong with the code or tests.
+![Passing Test](https://github.com/mnichols17/421-GroupCalc/blob/master/tests.jpg)
+
 * Calculator Object
    * Properties
       * Result 
