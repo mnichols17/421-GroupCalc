@@ -424,11 +424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatsCalculator\\StatsCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\StatsCalculator\\StatsCalculator.csproj",
       "projectName": "StatsCalculator",
-      "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatsCalculator\\StatsCalculator.csproj",
+      "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\StatsCalculator\\StatsCalculator.csproj",
       "packagesPath": "C:\\Users\\Mike\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatsCalculator\\obj\\",
+      "outputPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\StatsCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mike\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -444,11 +444,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Mike\\Source\\Repos\\421Group\\BasicCalculator\\BasicCalculator.csproj": {
-              "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\BasicCalculator\\BasicCalculator.csproj"
+            "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\BasicCalculator\\BasicCalculator.csproj": {
+              "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\BasicCalculator\\BasicCalculator.csproj"
             },
-            "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatOperations\\StatOperations.csproj": {
-              "projectPath": "C:\\Users\\Mike\\Source\\Repos\\421Group\\StatOperations\\StatOperations.csproj"
+            "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\StatOperations\\StatOperations.csproj": {
+              "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\StatOperations\\StatOperations.csproj"
             }
           }
         }
