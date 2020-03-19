@@ -9,7 +9,7 @@ namespace SamplingOperations
 {
     class ConfidenceInterval
     {
-        static private decimal tscore(int df, decimal foundA)
+        static private decimal Tscore(int df, decimal foundA)
         {
             using (var reader = new StreamReader("../../../t-table.csv"))
             {
@@ -52,7 +52,7 @@ namespace SamplingOperations
                         var tem = s.Split(',');
                         if (tem[0] == Convert.ToString(df))
                         {
-                            return(Convert.ToDecimal(tem[temp]));
+                            return (Convert.ToDecimal(tem[temp]));
                         }
                         else
                         {
@@ -60,6 +60,7 @@ namespace SamplingOperations
                         }
                     }
                 }
+                return -1;
             }
         }
         static public decimal Interval(int percent, int[] nums)
@@ -69,7 +70,7 @@ namespace SamplingOperations
             decimal sd = StandardDeviation.findSD(nums);
             decimal confidence = Multiplication.Product(percent, .01m);
             decimal ans = Division.Quotient((1 - confidence), 2);
-            return tscore(df, ans);
+            return Tscore(df, ans);
         }
     }
 }
