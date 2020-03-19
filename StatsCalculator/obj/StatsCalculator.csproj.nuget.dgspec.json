@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\StatsCalculator\\StatsCalculator.csproj": {}
+    "C:\\Users\\Mike\\source\\repos\\StatsCalc\\StatsCalculator\\StatsCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Addition\\Addition.csproj": {
+    "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Addition\\Addition.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Addition\\Addition.csproj",
+        "projectUniqueName": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Addition\\Addition.csproj",
         "projectName": "Addition",
-        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Addition\\Addition.csproj",
+        "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Addition\\Addition.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
-                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
+              "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
               }
             }
           }
@@ -24,35 +24,35 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\BasicCalculator\\BasicCalculator.csproj": {
+    "C:\\Users\\Mike\\source\\repos\\StatsCalc\\BasicCalculator\\BasicCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\BasicCalculator\\BasicCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\BasicCalculator\\BasicCalculator.csproj",
         "projectName": "BasicCalculator",
-        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\BasicCalculator\\BasicCalculator.csproj",
+        "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\BasicCalculator\\BasicCalculator.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Addition\\Addition.csproj": {
-                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Addition\\Addition.csproj"
+              "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Addition\\Addition.csproj": {
+                "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Addition\\Addition.csproj"
               },
-              "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Division\\Division.csproj": {
-                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Division\\Division.csproj"
+              "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Division\\Division.csproj": {
+                "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Division\\Division.csproj"
               },
-              "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Exponentiation\\Exponentiation.csproj": {
-                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Exponentiation\\Exponentiation.csproj"
+              "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Exponentiation\\Exponentiation.csproj": {
+                "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Exponentiation\\Exponentiation.csproj"
               },
-              "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
-                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
+              "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
               },
-              "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Multiplication\\Multiplication.csproj": {
-                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Multiplication\\Multiplication.csproj"
+              "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Multiplication\\Multiplication.csproj": {
+                "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Multiplication\\Multiplication.csproj"
               },
-              "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Radical\\Radical.csproj": {
-                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Radical\\Radical.csproj"
+              "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Radical\\Radical.csproj": {
+                "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Radical\\Radical.csproj"
               },
-              "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Subtraction\\Subtraction.csproj": {
-                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Subtraction\\Subtraction.csproj"
+              "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Subtraction\\Subtraction.csproj": {
+                "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Subtraction\\Subtraction.csproj"
               }
             }
           }
@@ -62,17 +62,17 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Division\\Division.csproj": {
+    "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Division\\Division.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Division\\Division.csproj",
+        "projectUniqueName": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Division\\Division.csproj",
         "projectName": "Division",
-        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Division\\Division.csproj",
+        "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Division\\Division.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
-                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
+              "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
               }
             }
           }
@@ -82,17 +82,17 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Exponentiation\\Exponentiation.csproj": {
+    "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Exponentiation\\Exponentiation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Exponentiation\\Exponentiation.csproj",
+        "projectUniqueName": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Exponentiation\\Exponentiation.csproj",
         "projectName": "Exponentiation",
-        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Exponentiation\\Exponentiation.csproj",
+        "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Exponentiation\\Exponentiation.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
-                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
+              "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
               }
             }
           }
@@ -102,28 +102,28 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
+    "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj",
+        "projectUniqueName": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj",
         "projectName": "MathOperations",
-        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
+        "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Multiplication\\Multiplication.csproj": {
+    "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Multiplication\\Multiplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Multiplication\\Multiplication.csproj",
+        "projectUniqueName": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Multiplication\\Multiplication.csproj",
         "projectName": "Multiplication",
-        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Multiplication\\Multiplication.csproj",
+        "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Multiplication\\Multiplication.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
-                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
+              "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
               }
             }
           }
@@ -133,17 +133,17 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Radical\\Radical.csproj": {
+    "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Radical\\Radical.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Radical\\Radical.csproj",
+        "projectUniqueName": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Radical\\Radical.csproj",
         "projectName": "Radical",
-        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Radical\\Radical.csproj",
+        "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Radical\\Radical.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
-                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
+              "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
               }
             }
           }
@@ -153,14 +153,14 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\StatOperations\\StatOperations.csproj": {
+    "C:\\Users\\Mike\\source\\repos\\StatsCalc\\StatOperations\\StatOperations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\StatOperations\\StatOperations.csproj",
+        "projectUniqueName": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\StatOperations\\StatOperations.csproj",
         "projectName": "StatOperations",
-        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\StatOperations\\StatOperations.csproj",
+        "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\StatOperations\\StatOperations.csproj",
         "packagesPath": "C:\\Users\\Mike\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\StatOperations\\obj\\",
+        "outputPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\StatOperations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mike\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -176,8 +176,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
-                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
+              "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
               }
             }
           }
@@ -216,14 +216,14 @@
         }
       }
     },
-    "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\StatsCalculator\\StatsCalculator.csproj": {
+    "C:\\Users\\Mike\\source\\repos\\StatsCalc\\StatsCalculator\\StatsCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\StatsCalculator\\StatsCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\StatsCalculator\\StatsCalculator.csproj",
         "projectName": "StatsCalculator",
-        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\StatsCalculator\\StatsCalculator.csproj",
+        "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\StatsCalculator\\StatsCalculator.csproj",
         "packagesPath": "C:\\Users\\Mike\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\StatsCalculator\\obj\\",
+        "outputPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\StatsCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mike\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -239,11 +239,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\BasicCalculator\\BasicCalculator.csproj": {
-                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\BasicCalculator\\BasicCalculator.csproj"
+              "C:\\Users\\Mike\\source\\repos\\StatsCalc\\BasicCalculator\\BasicCalculator.csproj": {
+                "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\BasicCalculator\\BasicCalculator.csproj"
               },
-              "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\StatOperations\\StatOperations.csproj": {
-                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\StatOperations\\StatOperations.csproj"
+              "C:\\Users\\Mike\\source\\repos\\StatsCalc\\StatOperations\\StatOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\StatOperations\\StatOperations.csproj"
               }
             }
           }
@@ -282,17 +282,17 @@
         }
       }
     },
-    "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Subtraction\\Subtraction.csproj": {
+    "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Subtraction\\Subtraction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Subtraction\\Subtraction.csproj",
+        "projectUniqueName": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Subtraction\\Subtraction.csproj",
         "projectName": "Subtraction",
-        "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\Subtraction\\Subtraction.csproj",
+        "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\Subtraction\\Subtraction.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
-                "projectPath": "C:\\Users\\Mike\\Source\\Repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
+              "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj": {
+                "projectPath": "C:\\Users\\Mike\\source\\repos\\StatsCalc\\MathOperations\\MathOperations.csproj"
               }
             }
           }
